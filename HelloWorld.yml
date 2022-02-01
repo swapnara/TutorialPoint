@@ -1,0 +1,6 @@
+---
+- shell: echo "Hello Swapna Rani Behera!!"
+  register: out
+  
+- debug:
+    msg: "{{ out }}"
